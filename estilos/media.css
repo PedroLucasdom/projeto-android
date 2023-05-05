@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) and (max-width: 992px) { /*Tablet */
+    main {
+        max-width: 850px;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    div#video > iframe {
+        height: 330px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        max-width: 850px;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    div#video > iframe {
+        height: 330px;
+    }
+
+    #n > ul > li{
+        display: inline;
+    }
+
+    #menu {
+        display: none;
+    }
+}
