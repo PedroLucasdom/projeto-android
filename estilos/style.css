@@ -60,6 +60,10 @@ header > p{
     color: white;
 }
 
+header > nav {
+    display: none;
+}
+
 header > nav > ul {
     list-style-type: none;
 }

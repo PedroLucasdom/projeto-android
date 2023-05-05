@@ -27,6 +27,10 @@
         height: 330px;
     }
 
+    header > nav {
+        display: block;
+    }
+
     #n > ul > li{
         display: inline;
     }
